@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+header {
+    background: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+.btn {
+    display: inline-block;
+    background: #ffcc00;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+section {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    color: #0073e6;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+ul li {
+    padding: 5px 0;
+}
+#contact {
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    margin-top: 20px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 20px auto;
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background: #0073e6;
+    color: white;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover {
+    background: #005bb5;
+}
